@@ -1,0 +1,179 @@
+/* Reset all the broser default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1ca3;
+}
+
+.mainText {
+  color: #fff;
+}
+
+header.header {
+  padding: 10px 30px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.header ul li {
+  list-style-type: none;
+  padding: 15px;
+  font-size: 1.2em;
+  margin: 30px 0;
+}
+
+.header ul {
+  margin-right: 50px;
+}
+
+.main-nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: border-bottom 1s;
+  /* border-right: 1px solid #f1f1f1; */
+  padding-right: 10px;
+}
+
+.main-nav-links li a:hover {
+  border-bottom: 1px solid #a13d16;
+  color: #f1f1f1;
+}
+/* Home Page */
+.home {
+  border-bottom: 1px solid #a13d16;
+}
+
+/* Logo  images*/
+.mylogo {
+  width: 100px;
+  height: auto;
+  margin-top: 30px;
+}
+
+/* Header content */
+
+.header-content {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background-color: #1c1ca3;
+  height: 400px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.header-content .mainText {
+  width: 70%;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 50px auto;
+  /* border: 1px solid rgba(73, 73, 138, 0.5); */
+  padding: 50px;
+  text-align: center;
+}
+
+.computer-code-img {
+  height: 250px;
+  background-image: url(images/computer-code.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.computer-code-img:hover {
+  /* background-color: rgba(116, 116, 173, 0.5); */
+  cursor: pointer;
+}
+
+/* Start here link */
+.btn-tutorials {
+  display: flex;
+  justify-content: center;
+  background-color: #a13d16;
+  padding: 10px;
+  border-radius: 3px;
+  width: 40%;
+  margin: 30px auto;
+  color: #fff;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+
+.btn-tutorials:hover {
+  background-color: #884429;
+}
+
+.tutorials-wrapper {
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* Programming language images */
+.language-logo {
+  width: 200px;
+  height: auto;
+}
+
+.img-desc {
+  width: 30%;
+  margin-left: 160px;
+  border: 1px solid #f1f1f1;
+  padding: 10px 5px;
+}
+
+/* About the author Style*/
+
+.about-author-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.author-img-wrapper {
+  width: 200px;
+}
+.author-img-wrapper img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.author-text-wrapper {
+  margin: 20px 25px;
+  width: 35%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1c1ca3;
+  padding: 20px 0;
+}
+.footer,
+.footer a {
+  color: #f1f1f1;
+  text-decoration: none;
+  padding: 50px;
+  text-transform: uppercase;
+}
